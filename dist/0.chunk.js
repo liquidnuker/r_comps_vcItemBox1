@@ -7,11 +7,19 @@ webpackJsonp([0],{
 var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
   return _c('div', [_c('h2', {
     staticClass: "item-id"
-  }, [_vm._v("vcItemBox101")]), _vm._v(" "), _c('div', {
+  }, [_vm._v("vcItemBox102")]), _vm._v(" "), _c('div', {
     staticClass: "row"
   }, [_c('div', {
     staticClass: "col-sm-3"
-  }, [_c('vcItemBox1')], 1), _vm._v(" "), _c('div', {
+  }, [_c('vcItemBox101')], 1), _vm._v(" "), _c('div', {
+    staticClass: "col-sm-9"
+  }, [_vm._v("\n    39\n  ")])]), _vm._v(" "), _c('h2', {
+    staticClass: "item-id"
+  }, [_vm._v("vcItemBox102")]), _vm._v(" "), _c('div', {
+    staticClass: "row"
+  }, [_c('div', {
+    staticClass: "col-sm-3"
+  }, [_c('vcItemBox102')], 1), _vm._v(" "), _c('div', {
     staticClass: "col-sm-9"
   }, [_vm._v("\n    39\n  ")])])])
 }
@@ -99,9 +107,23 @@ if (false) {(function () {
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
-var vcItemBox1 = function vcItemBox1() {
-  return __webpack_require__.e/* import() */(1).then(__webpack_require__.bind(null, 9));
+var vcItemBox101 = function vcItemBox101() {
+  return __webpack_require__.e/* import() */(4).then(__webpack_require__.bind(null, 14));
+};
+var vcItemBox102 = function vcItemBox102() {
+  return __webpack_require__.e/* import() */(3).then(__webpack_require__.bind(null, 17));
 };
 /* harmony default export */ __webpack_exports__["a"] = ({
   data: function data() {
@@ -109,7 +131,8 @@ var vcItemBox1 = function vcItemBox1() {
   },
 
   components: {
-    vcItemBox1: vcItemBox1
+    vcItemBox101: vcItemBox101,
+    vcItemBox102: vcItemBox102
   },
   mounted: function mounted() {
     // console.log("Home.vue mounted");
